@@ -1,0 +1,17 @@
+{
+  "name": "anichart-doc",
+  "version": "0.0.1",
+  "description": "Document of Anichart.js",
+  "main": "index.js",
+  "repository": "https://github.com/Jannchie/anichart-doc",
+  "author": "Jannchie <jannchie@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
+}
