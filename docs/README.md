@@ -7,7 +7,7 @@ actionText: 快速上手 →
 actionLink: /zh/guide/
 features:
 - title: 简单易用
-  details: 在浏览器中，仅需简单的配置，便可构建美观的数据可视化动画。
+  details: 在浏览器中，仅需简单的配置，便可构建美观的数据可视化动画。配合 Typescript 开发迅速。
 - title: 前端驱动
   details: 利用 D3 处理数据，并整合了 FFmpeg，提供从输入数据到导出视频的完整支持 。
 - title: 易于定制
