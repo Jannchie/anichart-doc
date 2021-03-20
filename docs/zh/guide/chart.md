@@ -37,10 +37,10 @@ beta,2,2020-01-03
 
 ## 读取数据
 
-数据作为一种资源能被所有组件全局共享，他们被保存在 recoures 对象中。你可以这样载入数据。
+数据作为一种资源能被所有组件全局共享，他们被保存在 recourse 对象中。你可以这样载入数据。
 
 ``` js
-anichart.recoures.loadCSV("path/to/csv/file.csv", "data");
+anichart.recourse.loadCSV("path/to/csv/file.csv", "data");
 ```
 
 其中，第一个参数为文件的**路径**，而第二个参数为该文件的**别名**。
@@ -64,7 +64,7 @@ const barChart = new anichart.BarChart();
 ``` js
 import * as anichart from "anichart";
 const stage = new anichart.Stage();
-anichart.recoures.loadCSV("path/to/csv/file.csv", "data");
+anichart.recourse.loadCSV("path/to/csv/file.csv", "data");
 const barChart = new anichart.BarChart();
 stage.addChild(barChart);
 stage.play();
